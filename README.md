@@ -53,4 +53,6 @@ In this project, we use unsupervised learning to discover patterns and groups in
 ### Summary
 After initial data processing, converting text features to dummy variables, and standardizing the crypto dataset with StandardScaler(), we are able to reduce the dimensions of the data to three componenets using PCA.
 Our elbow curve determined that our optimal number of clusters is K=4. Using K=4, we create four clusters. We notice that one of the clusters has only one cryptocurruency. We may further evaluate this data point to determine if it may be dropped.
-Finally we create a hvplot table showing our final cryptocurrencies and their classes, and a 2D-scatter plot showing TotalCoinedMined and TotalCoinsSupplied. Similar to the 3D-Scatter plot, our 2D-Scatter plot show that we have one outlier cryptocurrency
+
+Finally we create a hvplot table showing our final cryptocurrencies and their classes, and a 2D-scatter plot showing TotalCoinedMined and TotalCoinsSupplied.
+Similar to the 3D-Scatter plot, our 2D-Scatter plot show that we have one outlier cryptocurrency
