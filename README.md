@@ -2,7 +2,7 @@
 ## Overview
 In this project, we use unsupervised learning to discover patterns and groups in a cryptocurrency dataset that will then help determine what class of cryptocurrencies are tradable. In the initial phase phase we process the dataset for input into the machie learning algorithm, then we would group the data using clustering and K-Means algorithm. Finally, we would make our model more efficient by using the Principal Component Analysis.
 
-## Control Flow
+### Control Flow
 1. Basic Data Processing
     - Read in dataset
     - Keep cryptocurrencies that are traded
