@@ -1,6 +1,6 @@
 # Cryptocurrencies
 ## Overview
-In this project, we use unsupervised learning to discover patterns and groups in a cryptocurrency dataset that will then help determine what class of cryptocurrencies are tradable. In the initial phase phase we process the dataset for input into the machie learning algorithm, then we would group the data using clustering and K-Means algorithm. Finally, we would make our model more efficient by using the Principal Component Analysis.
+In this project, we use unsupervised learning to discover patterns and groups in a cryptocurrency dataset that will help determine what class of cryptocurrencies are tradable. In the initial phase, we process the dataset for input into the machine learning algorithm; then, we group the data using the clustering and K-Means algorithms. Finally, we would make our model more efficient by using the Principal Component Analysis.
 
 ### Control Flow
 1. Basic Data Processing
@@ -51,8 +51,8 @@ In this project, we use unsupervised learning to discover patterns and groups in
 
 
 ### Summary
-After initial data processing, converting text features to dummy variables, and standardizing the crypto dataset with StandardScaler(), we are able to reduce the dimensions of the data to three componenets using PCA.
-Our elbow curve determined that our optimal number of clusters is K=4. Using K=4, we create four clusters. We notice that one of the clusters has only one cryptocurruency. We may further evaluate this data point to determine if it may be dropped.
+After initial data processing, converting text features to dummy variables, and standardizing the crypto dataset with StandardScaler(), we can reduce the data dimensions to three components using PCA.
+Our elbow curve determined that our optimal number of clusters is K=4. Using K=4, we create four clusters. We notice that one of the clusters has only one cryptocurrency. We may further evaluate this data point to determine if we can drop that data point.
 
-Finally we create a hvplot table showing our final cryptocurrencies and their classes, and a 2D-scatter plot showing TotalCoinedMined and TotalCoinsSupplied.
-Similar to the 3D-Scatter plot, our 2D-Scatter plot show that we have one outlier cryptocurrency
+Finally, we create a hvplot table showing our final cryptocurrencies and their classes and a 2D-scatter plot showing TotalCoinedMined and TotalCoinsSupplied.
+Similar to the 3D-Scatter plot, our 2D-Scatter plot shows that we have one outlier cryptocurrency.
