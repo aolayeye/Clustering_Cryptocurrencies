@@ -50,4 +50,7 @@ In this project, we use unsupervised learning to discover patterns and groups in
 ![Hvplot_Scatter](https://user-images.githubusercontent.com/67847583/130296532-24f567ea-ad03-43b0-8ed1-aaa31150d64e.png)
 
 
-
+### Summary
+After initial data processing, converting text features to dummy variables, and standardizing the crypto dataset with StandardScaler(), we are able to reduce the dimensions of the data to three componenets using PCA.
+Our elbow curve determined that our optimal number of clusters is K=4. Using K=4, we create four clusters. We notice that one of the clusters has only one cryptocurruency. We may further evaluate this data point to determine if it may be dropped.
+Finally we create a hvplot table showing our final cryptocurrencies and their classes, and a 2D-scatter plot showing TotalCoinedMined and TotalCoinsSupplied. Similar to the 3D-Scatter plot, our 2D-Scatter plot show that we have one outlier cryptocurrency
